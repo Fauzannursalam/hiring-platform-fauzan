@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "id": "cand_20251008_0001",
+            "attributes": [
+                {
+                    "key": "full_name",
+                    "label": "Full Name",
+                    "value": "Nadia Putri",
+                    "order": 1
+                },
+                {
+                    "key": "email",
+                    "label": "Email",
+                    "value": "nadia.putri@example.com",
+                    "order": 2
+                },
+                {
+                    "key": "phone",
+                    "label": "Phone",
+                    "value": "+62 812-1234-5678",
+                    "order": 3
+                },
+                {
+                    "key": "domicile",
+                    "label": "Domicile",
+                    "value": "Jakarta",
+                    "order": 4
+                },
+                {
+                    "key": "gender",
+                    "label": "Gender",
+                    "value": "Female",
+                    "order": 5
+                },
+                {
+                    "key": "linkedin_link",
+                    "label": "LinkedIn",
+                    "value": "https://linkedin.com/in/nadiaputri",
+                    "order": 6
+                }
+            ]
+        }
+    ]
+}
