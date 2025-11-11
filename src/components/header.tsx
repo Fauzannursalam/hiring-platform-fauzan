@@ -38,7 +38,7 @@ export default function Header({ title }: { title?: string }) {
 			<h1 className="text-2xl font-semibold text-[#1d1f20]">{derivedTitle}</h1>
 
 			<div className="relative" ref={btnRef}>
-				<button aria-label="Open user menu" onClick={() => setOpen((s) => !s)} className="w-10 h-10 rounded-full bg-gradient-to-br from-[#01959f] to-[#43936c] flex items-center justify-center text-white font-semibold cursor-pointer">
+				<button aria-label="Open user menu" onClick={() => setOpen((s) => !s)} className="w-10 h-10 rounded-full  bg-linear-to-br from-[#01959f] to-[#43936c] flex items-center justify-center text-white font-semibold cursor-pointer">
 					{role?.[0]?.toUpperCase() ?? "A"}
 				</button>
 
