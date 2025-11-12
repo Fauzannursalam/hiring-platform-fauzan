@@ -38,11 +38,6 @@ The application features a clean, modern UI with role-based access control and f
 - **Zod** - Schema validation
 - **@hookform/resolvers** - Form validation integration
 
-### Recognition Features
-
-- **MediaPipe Hands** - Hand landmark detection
-- Hand gesture recognition for profile photo capture (three fingers → two fingers → one finger countdown)
-
 ### UI Components
 
 - **Shadcn UI**
@@ -63,9 +58,10 @@ The application features a clean, modern UI with role-based access control and f
 
 ### Installation
 
-1. git clone
-
-2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
+1. git clone https://github.com/Fauzannursalam/hiring-platform-fauzan.git
+2. npm i
+3. npm run dev
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Login Credentials
 
@@ -103,19 +99,12 @@ The application uses a simple authentication system with the following credentia
 - Browse available job listings
 - View job details
 - Apply for jobs with a comprehensive application form
-- Capture profile photo using hand gesture recognition
+- Capture profile photo
 - Form fields include: full name, date of birth, gender, domicile, phone number, email, and LinkedIn profile
 
-### Hand Gesture Photo Capture
+### Photo Capture
 
-The application includes a unique feature for capturing profile photos using hand gestures:
-
-1. Show three fingers to start
-2. Then two fingers to continue
-3. Then one finger to trigger countdown
-4. Photo is automatically captured after countdown
-
-This feature uses MediaPipe Hands for real-time hand tracking and gesture recognition.
+This feature us for real-time tracking and face recognition.
 
 ## Project Structure
 
